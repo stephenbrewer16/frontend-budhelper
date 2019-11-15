@@ -5,9 +5,7 @@ export default class SignupForm extends Component {
     state = {
         username: '',
         password: '',
-        email: '',
-        wallet: null
-
+        email: ''
     }
 
     handleChange = (e) => {
